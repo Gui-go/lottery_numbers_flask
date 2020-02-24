@@ -1,0 +1,8 @@
+{% extends "base.html"%}
+{% block content %}
+    <div class="jumbotron">
+        <p>Welcome to my first flask app!</p>
+        <p>Wanna check if you are luck today?</p>
+        <a href="{{url_for('signup_form')}}">Sign up here for getting your lottery numbers</a>
+    </div>
+{% endblock %}
